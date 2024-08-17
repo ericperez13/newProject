@@ -1,9 +1,19 @@
-*{
-    background-color: #f0ead6;
-    font-family: 'Times New Roman', Times, serif;
-}
-
 #mainTitle{
     text-align: center;
     font-size: x-large;
+    color: red;
+}
+
+.paragraphOne{
+    display: flex;
+    background-color: magenta;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.paragraphTwo{
+    display: flex;
+    background-color: red;
+    margin: auto;
+    padding: 5px;
 }
