@@ -5,6 +5,16 @@
   font-style: normal;
 }
 
+#navbar {
+  display: flex;
+  text-align: center;
+  padding-top: 15px;
+}
+
+h1 {
+  flex: 1;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -18,16 +28,6 @@ a:hover {
   display: flex;
   margin: 50px;
   padding: 0;
-}
-
-h1 {
-  flex: 1;
-}
-
-#navbar {
-  display: flex;
-  text-align: center;
-  padding-top: 15px;
 }
 
 #introParagraph {
