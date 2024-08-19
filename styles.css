@@ -1,19 +1,44 @@
-#mainTitle{
-    text-align: center;
-    font-size: x-large;
-    color: red;
+* {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
 }
 
-.paragraphOne{
-    display: flex;
-    background-color: magenta;
-    padding: 5px;
-    margin-right: 5px;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.paragraphTwo{
-    display: flex;
-    background-color: red;
-    margin: auto;
-    padding: 5px;
+a:hover {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  margin: 50px;
+  padding: 0;
+}
+
+h1 {
+  flex: 1;
+}
+
+#navbar {
+  display: flex;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#introParagraph {
+  background-color: #f0ead6;
+  font-weight: 500;
+  padding: 25px;
+}
+
+.footer {
+  text-align: center;
+  font-weight: 300;
+  position: fixed;
+  width: 100%;
 }
