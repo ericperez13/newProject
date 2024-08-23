@@ -25,7 +25,6 @@ a:hover {
   cursor: pointer;
 }
 
-
 .navbarContainer {
   display: flex;
   margin: 75px;
@@ -56,6 +55,21 @@ a:hover {
   font-size: 75px;
 }
 
-.projectsMainDiv.projectsDisplay {
-  border: 2px;
+/*this is the box where the pictures of the projects is going to go*/
+.projectsDisplay {
+  width: auto;
+  min-height: 300px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
 }
+
+/*code for the images*/
+.projectsDisplay>img {
+  height: 300px;
+  width: auto;
+}
+
+.projectsDisplay>img :hover {}
