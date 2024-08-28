@@ -10,3 +10,6 @@ I added a projects.html files where I will displpay all of the projects I've don
 
 # update 8/22/2024
 I added an images folder where all the pictures of my past projects that will be displayed on my projects.html file and fixed the box where I want to display said projects as well.
+
+# update 8/28/2024 
+I've been updating this portfolio everyday, but haven't been updating my README as consistently. I added my project images and added some hover effects, even have some issues that I presented on the issues tab, need to work on those. I changed my bio and made it more professional, really on the fence if to make it professional or make it more personal since it is my personal website. not sure yet, will update.
