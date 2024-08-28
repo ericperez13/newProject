@@ -68,8 +68,10 @@ a:hover {
 
 /*code for the images*/
 .projectsDisplay>img {
-  height: 300px;
+  height: 400px;
   width: auto;
 }
 
-.projectsDisplay>img :hover {}
+.projectsDisplay>img:hover {
+  transform: scale(1.1);
+}
