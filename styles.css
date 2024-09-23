@@ -57,20 +57,32 @@ a:hover {
 /*this is the box where the pictures of the projects is going to go*/
 .projectsDisplay {
   width: auto;
-  min-height: 300px;
+  min-height: 250px;
   border: 1px solid black;
   padding: 10px;
-  margin: 10px;
   display: flex;
   justify-content: space-evenly;
 }
 
 /*code for the images*/
-.projectsDisplay > img {
-  height: 400px;
+.projectsDisplay>img {
+  height: 150px;
   width: auto;
 }
 
+/*imnages pop out a little, might need to change size*/
 .projectsDisplay>img:hover {
-  transform: scale(1.2);
+  transform: scale(3.1);
+}
+
+/*contact.html styles*/
+.contactTitle>h1 {
+  text-align: center;
+}
+
+.contactTitle>svg {
+  display: inline-block;
+  margin: auto;
+  height: 50px;
+  width: 50px;
 }
