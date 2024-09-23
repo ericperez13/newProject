@@ -13,3 +13,6 @@ I added an images folder where all the pictures of my past projects that will be
 
 # update 8/28/2024 
 I've been updating this portfolio everyday, but haven't been updating my README as consistently. I added my project images and added some hover effects, even have some issues that I presented on the issues tab, need to work on those. I changed my bio and made it more professional, really on the fence if to make it professional or make it more personal since it is my personal website. not sure yet, will update.
+
+# update 9/23/2024 
+Added the contact.html file and added some bootstrap icons. Added github icon, LinkedIn icon, and email icon. Need to figure out how to get them side by side instead of stacked on one another. 
