@@ -1,11 +1,17 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Source Code Pro", monospace;
   margin: 0;
   padding: 0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
+
+.title {
+  font-weight: 900;
+  font-size: 25px;
+}
+
 nav {
   background-color: white;
   padding: 1.5rem;
@@ -13,40 +19,56 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
 nav a {
   color: black;
   text-decoration: none;
   margin-left: 1rem;
+  font-size: 20px;
 }
+
+nav a:hover {
+  color: #008000;
+}
+
 .hero {
-  background-color: black;
+  background-image: url(./images/heroImage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   text-align: center;
   height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-size: 30px;
 }
+
 .about {
   padding: 3rem;
   text-align: center;
 }
+
 .about h2 {
   margin-bottom: 2rem;
 }
+
 .about-content {
   max-width: 60ch;
   margin: 0 auto;
   text-align: left;
   line-height: 1.5;
 }
+
 .about-content p {
   margin-bottom: 1rem;
 }
+
 .projects {
   padding: 3rem;
   text-align: center;
 }
+
 .project-row {
   display: flex;
   justify-content: space-around;
@@ -54,6 +76,7 @@ nav a {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .project-card {
   width: 45%;
   border: 1px solid #ddd;
@@ -61,7 +84,9 @@ nav a {
   overflow: hidden;
   position: relative;
   padding-top: 45%;
+  box-shadow: 0px 10px 10px lightgray;
 }
+
 .project-card-content {
   position: absolute;
   top: 0;
@@ -71,11 +96,13 @@ nav a {
   display: flex;
   flex-direction: column;
 }
+
 .project-card img {
   width: 100%;
   height: 70%;
   object-fit: cover;
 }
+
 .project-card-text {
   padding: 1rem;
   flex-grow: 1;
@@ -83,15 +110,18 @@ nav a {
   flex-direction: column;
   justify-content: center;
 }
+
 .contact {
   padding: 3rem;
   text-align: center;
   margin-top: auto;
 }
+
 .proficiencies {
   padding: 2rem;
   text-align: center;
 }
+
 .tech-icons {
   display: flex;
   justify-content: center;
@@ -99,26 +129,31 @@ nav a {
   gap: 2rem;
   margin-top: 1rem;
 }
+
 .tech-icons i {
   font-size: 2.5rem;
   color: #333;
 }
+
 .contact {
   padding: 2rem;
   text-align: center;
   margin-top: auto;
 }
+
 .social-icons {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
   margin-top: 1rem;
 }
+
 .social-icons a {
   font-size: 2rem;
   color: #333;
   transition: color 0.3s ease;
 }
+
 .social-icons a:hover {
-  color: #0077b5;
+  color: #008000;
 }
