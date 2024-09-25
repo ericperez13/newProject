@@ -17,5 +17,5 @@ I've been updating this portfolio everyday, but haven't been updating my README 
 # update 9/23/2024 
 Added the contact.html file and added some bootstrap icons. Added github icon, LinkedIn icon, and email icon. Need to figure out how to get them side by side instead of stacked on one another. 
 
-#update 9/24/2024 
-got my first pull request and I ran with it. It changed everything and now I need to study the new code, but wow does it look clean. I really like the way it looks and I feel like the font I used really makes it pop too. 
+# update 9/24/2024 
+Got my first pull request and I ran with it. It changed everything and now I need to study the new code, but wow does it look clean. I really like the way it looks and I feel like the font I used really makes it pop too. 
