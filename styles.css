@@ -1,88 +1,124 @@
-/*general styles*/
-* {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-
-#navbar {
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
   display: flex;
-  text-align: center;
-  padding-top: 15px;
+  flex-direction: column;
 }
-
-h1 {
-  flex: 1;
+nav {
+  background-color: white;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-a {
+nav a {
+  color: black;
   text-decoration: none;
-  color: inherit;
+  margin-left: 1rem;
 }
-
-a:hover {
-  cursor: pointer;
-}
-
-.navbarContainer {
-  display: flex;
-  margin: 75px;
-  padding: 0px;
-}
-
-/*index.html styles*/
-#introParagraph {
-  background-color: #f0ead6;
-  font-weight: 500;
-  padding: 25px;
-  margin: 100px;
-}
-
-.footer {
+.hero {
+  background-color: black;
+  color: white;
   text-align: center;
-  font-weight: 300;
-  position: fixed;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about {
+  padding: 3rem;
+  text-align: center;
+}
+.about h2 {
+  margin-bottom: 2rem;
+}
+.about-content {
+  max-width: 60ch;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.5;
+}
+.about-content p {
+  margin-bottom: 1rem;
+}
+.projects {
+  padding: 3rem;
+  text-align: center;
+}
+.project-row {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.project-card {
+  width: 45%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  padding-top: 45%;
+}
+.project-card-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+.project-card img {
   width: 100%;
+  height: 70%;
+  object-fit: cover;
 }
-
-/*projects.html styles*/
-.projectsMainDiv>h1 {
-  font-family: "Great Vibes", cursive;
-  font-weight: bold;
-  font-style: normal;
-  text-align: center;
-  font-size: 75px;
-}
-
-/*this is the box where the pictures of the projects is going to go*/
-.projectsDisplay {
-  width: auto;
-  min-height: 250px;
-  border: 1px solid black;
-  padding: 10px;
+.project-card-text {
+  padding: 1rem;
+  flex-grow: 1;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
 }
-
-/*code for the images*/
-.projectsDisplay>img {
-  height: 150px;
-  width: auto;
+.contact {
+  padding: 3rem;
+  text-align: center;
+  margin-top: auto;
 }
-
-/*imnages pop out a little, might need to change size*/
-.projectsDisplay>img:hover {
-  transform: scale(3.1);
-}
-
-/*contact.html styles*/
-.contactTitle>h1 {
+.proficiencies {
+  padding: 2rem;
   text-align: center;
 }
-
-.contactTitle>svg {
-  display: inline-block;
-  margin: auto;
-  height: 50px;
-  width: 50px;
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.tech-icons i {
+  font-size: 2.5rem;
+  color: #333;
+}
+.contact {
+  padding: 2rem;
+  text-align: center;
+  margin-top: auto;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.social-icons a {
+  font-size: 2rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+.social-icons a:hover {
+  color: #0077b5;
 }
